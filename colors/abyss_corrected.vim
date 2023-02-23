@@ -32,7 +32,7 @@ let s:bg = '#000c18'
 let s:primary       =   '#9966b8'
 let s:secondary     =   '#ddbb88'
 
-let s:source        =   '#bbbbbb'
+let s:source        =   '#6688cc'
 " let s:keyword       =   '#4077ad'
 " let s:keyword       =   '#225588'
 let s:keyword       =   '#24598f'
