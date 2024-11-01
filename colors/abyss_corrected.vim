@@ -43,6 +43,7 @@ let s:string        =   '#22aa44'
 let s:comment       =   '#384887'
 
 
+
 " Syntax highlighting groups
 call s:hi('Comment', s:comment, s:bg, s:none)
 call s:hi('Constant', s:primary, s:bg, s:none)
@@ -103,6 +104,7 @@ call s:hi('VertSplit', '#001a33', s:bg, s:none)
 call s:hi('Title', '#ddbb88', s:bg, s:none)
 call s:hi('Pmenu', s:source, '#001a33', s:none)
 call s:hi('PmenuSel', s:bg, s:source, s:none)
+call s:hi('StatusLine', s:none, '#000000', s:none)
 
 
 " Git Gutter
