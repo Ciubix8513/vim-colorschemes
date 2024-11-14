@@ -43,8 +43,8 @@ let s:string        =   '#22aa44'
 let s:comment       =   '#384887'
 
 
-
 " Syntax highlighting groups
+call s:hi('Normal', s:source, s:bg, s:none)
 call s:hi('Comment', s:comment, s:bg, s:none)
 call s:hi('Constant', s:primary, s:bg, s:none)
 call s:hi('String', s:string, s:bg, s:none)
